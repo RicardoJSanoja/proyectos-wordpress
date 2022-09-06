@@ -1,0 +1,64 @@
+/*
+Theme Name: prueba
+Text Domain: prueba
+Author: Ricardo Sanoja
+Author URI: https://github.com/FACUNDO977
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Home de prueba
+*/
+
+
+/*fuentes*/
+h1,h2,h3,h4,span{
+	font-family:Raleway; color: rgb( 255, 152, 0 );}
+
+/*cabecera-nav*/
+header{
+	background-color:rgb(0, 40, 77);
+	height: auto;
+}
+
+nav a {
+	text-decoration:none;
+	color: white;
+	font-family:Raleway;
+	font-size: 1.4pc;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+nav li a {
+	text-decoration:none;
+	color: white;
+	font-family:Raleway;
+	font-size: 1.4pc;
+}
+
+
+header p {
+	padding-left: 30px;
+}
+/*cuerpo*/
+body{
+	background-color: rgb( 21, 67, 96 );
+}
+p{ color: white}
+
+footer{
+
+}
+
+/*hover*/
+nav a:hover{
+color:white;
+}
+
+nav li a:hover {
+	color:white;
+}
